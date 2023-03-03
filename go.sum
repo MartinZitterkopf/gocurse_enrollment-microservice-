@@ -1,5 +1,7 @@
 github.com/MartinZitterkopf/gocurse_domain v0.0.0-20230224190903-c3e482e0b65d h1:wDeCSELz9ThWMG0bcxtWOwuF9JUWWeD8lv2cwrIhGyQ=
 github.com/MartinZitterkopf/gocurse_domain v0.0.0-20230224190903-c3e482e0b65d/go.mod h1:o/xeWqrFw0UqeLHn2y4b1ZDTLF2rBKILOmjTPtw4bT0=
+github.com/MartinZitterkopf/gocurse_domain v0.0.2 h1:eyqHSXolSgPrUaRafSzly+rI2rkp+eOGX5FllbJj3Xg=
+github.com/MartinZitterkopf/gocurse_domain v0.0.2/go.mod h1:o/xeWqrFw0UqeLHn2y4b1ZDTLF2rBKILOmjTPtw4bT0=
 github.com/MartinZitterkopf/gocurse_library_response v0.0.2 h1:lgt2Ff5sB/R/YKXPSxMKVOo08sPtb/nQhXqMw3LUj9U=
 github.com/MartinZitterkopf/gocurse_library_response v0.0.2/go.mod h1:ci7mJ4xzUxT0Zae1FigMtZEPfz+mDD0gUPlgycmYqVU=
 github.com/MartinZitterkopf/gocurse_meta v0.0.1 h1:+ZfFsW6hr5mvLIjxWXYkRdf5CaV2MUcC2O+/44alfRE=

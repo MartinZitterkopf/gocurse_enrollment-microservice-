@@ -3,7 +3,7 @@ module github.com/MartinZitterkopf/gocurse_microservice_enrollment
 go 1.19
 
 require (
-	github.com/MartinZitterkopf/gocurse_domain v0.0.0-20230224190903-c3e482e0b65d
+	github.com/MartinZitterkopf/gocurse_domain v0.0.2
 	github.com/MartinZitterkopf/gocurse_library_response v0.0.2
 	github.com/MartinZitterkopf/gocurse_meta v0.0.1
 	github.com/MartinZitterkopf/gocurse_sdk-microservice- v0.0.3

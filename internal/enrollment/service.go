@@ -45,7 +45,7 @@ func (s service) Create(ctx context.Context, userID, courseID string) (*domain.E
 	enroll := &domain.Enrollment{
 		UserID:  userID,
 		CurseID: courseID,
-		Status:  "P",
+		Status:  domain.Pending,
 	}
 
 	if _, err := s.userTrans.Get(userID); err != nil {
@@ -73,9 +73,18 @@ func (s service) GetAll(ctx context.Context, filters Filters, offset, limit int)
 
 func (s service) Update(ctx context.Context, id string, status *string) error {
 
+	if status != nil {
+		switch domain.EnrollStatus(*status) {
+		case domain.Pending, domain.Active, domain.Studying, domain.Inactive:
+		default:
+			return ErrInvalidStatus{*status}
+		}
+	}
+
 	if err := s.repo.Update(ctx, id, status); err != nil {
 		return err
 	}
+
 	return nil
 }
 
